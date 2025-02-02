@@ -219,19 +219,21 @@ themeButton.addEventListener("click", () => {
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 const sr = ScrollReveal({
-  origin: 'top',
-  distance: '60px',
+  origin: "top",
+  distance: "60px",
   duration: 2500,
   delay: 400,
-})
+});
 
-sr.reveal('.home__title')
-sr.reveal('.home__img')
-sr.reveal('.home__subtitle',{delay:500})
-sr.reveal('.home__description' ,{delay: 600 })
-sr.reveal('.section__title' ,{delay: 620 })
-sr.reveal('.uil, .uil-mouse-alt-2, .home__scroll-mouse,.home__scroll-name' ,{delay: 620 })
-sr.reveal('.home__social' ,{delay: 620 })
-sr.reveal('.about section' , {interval: 100, delay : 500 })
-sr.reveal('.section__subtitle',{delay:500})
-sr.reveal('.about__container ,.container grid',{delay:500})
+sr.reveal(".home__title");
+sr.reveal(".home__img");
+sr.reveal(".home__subtitle", { delay: 500 });
+sr.reveal(".home__description", { delay: 600 });
+sr.reveal(".section__title", { delay: 620 });
+sr.reveal(".uil, .uil-mouse-alt-2, .home__scroll-mouse,.home__scroll-name", {
+  delay: 620,
+});
+sr.reveal(".home__social", { delay: 620 });
+sr.reveal(".about section", { interval: 100, delay: 500 });
+sr.reveal(".section__subtitle", { delay: 500 });
+sr.reveal(".about__container ,.container grid", { delay: 500 });
